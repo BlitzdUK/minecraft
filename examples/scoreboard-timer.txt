@@ -1,0 +1,42 @@
+Minecraft scoreboard game timer. Blitzd Media 2020. https://blitzd.uk/minecraft/examples
+
+Minecraft time	Minecraft ticks 	Real time
+1 second 		0.27 				0.0138 seconds
+1 minute 		16.6 				0.83 seconds
+1 hour 			1,000 				50 seconds
+1 day 			24,000 				20 minutes 
+
+Chat bar input:
+
+/scoreboard objectives add timer dummy 
+/scoreboard objectives setdisplay sidebar timer
+
+Command blocks:
+
+scoreboard players add ticks timer 1 [repeat]
+
+execute if score ticks timer matches 1000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 2000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 3000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 4000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 5000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 6000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 7000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 8000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 9000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 10000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 11000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 12000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 13000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 14000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 15000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 16000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 17000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 18000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 19000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 20000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 21000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 22000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 23000 run scoreboard players add hours timer 1	[chain]
+execute if score ticks timer matches 23999 run scoreboard players reset hours	[chain]
+execute if score ticks timer matches 24000 run scoreboard players reset ticks	[chain]
