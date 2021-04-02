@@ -1,4 +1,4 @@
-Minecraft scoreboard game timer. Blitzd Media 2020. https://blitzd.uk/minecraft/examples
+Minecraft scoreboard game timer. Blitzd Media 2021. https://blitzd.uk/minecraft/examples
 
 Minecraft time	Minecraft ticks 	Real time
 1 second 		0.27 				0.0138 seconds
